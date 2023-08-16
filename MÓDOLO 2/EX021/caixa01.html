@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixast</title>
+    <style>
+        h1{  /* FORMAS DE SIMPLIFICAR O CÓDIGO (FAMOSO RESPONSIVO!) Box level */ 
+            text-align: center;
+            background-color: lightblue;
+            height: 300px;
+            width: 450px;
+            border: 15px solid rgb(135, 208, 233);
+
+            padding: 10px 10px 10px 10px; /* Ou ser usado apenas um única vez! */ 
+
+            margin: 10px auto; /* Podendo usar também o "auto" em conjunto */ 
+
+            outline: 10px dashed gray;
+        }
+
+        p{
+            text-align: center;
+        }
+
+
+        a{ /* FAMOSO INLINE LEVEL */
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.623);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#" >links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

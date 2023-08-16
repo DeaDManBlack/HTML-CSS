@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemeplo de hover</title>
+    <style>
+        body{
+            background-color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /*A famosa div filha, seguindo a sequencia do pai */
+        div > p{
+            display: none;
+        }
+        /*Div usada para exibir ou esconder coisas em CSS */
+        div:hover > p{
+            display: block;
+            color: aliceblue;
+            background-color: blue;
+        }
+        /*Hover da a entender que "Tudo que o mouse for passado por cima, irá exibir!" */
+        div:hover{
+            color:aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>Passe o mouse aqui!
+        <P>TEXTO ESCONDIDO...!</P>
+    </div>
+    <p>Fim do Exemplo!
+    </p>
+</body>
+</html>

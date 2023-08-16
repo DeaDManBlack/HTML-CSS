@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando os Áudios</title>
+</head>
+<body>
+    <h1>Verificando e testando o funcionamento dos Áudios</h1>
+        <p> <strong>Áudio teste 1</strong>
+        </p>
+            <audio src="midia/guanacast-33.mp3" controls autoplay></audio>
+            <!-- Tipos de formatos compativeis: MP3, WAV & OGG. -->
+        <p> <strong>Outra forma de executar seria</strong>
+        </p>
+            <audio preload="metadata" autoplay controls > <!-- Formas de carregar o áduio dentro do site -->
+                <source src="midia/guanacast-33.mp3" type="audio/mpeg"> <!-- Para formato MP3-->
+                <source src="midia/guanacast-33.wav" type="audio/wav">  <!-- Para formato WAV-->
+                <source src="midia/guanacast-33.ogg" type="audio/ogg">  <!-- Para formato Ogg-->
+            </audio>
+
+</body>
+</html>

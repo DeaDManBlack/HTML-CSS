@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links </title>
+</head>
+<body>
+    <h1>Estrutura de Links Externos </h1>
+        <p>
+            <ul type="square">
+                <li>    <a href="https://www.youtube.com/watch?v=LeOVXQDsAIY&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=27">
+        Esse é o link do Professor Guanabara para sobrescrever meu site</a> <!-- Link para abrir na mesma guia e sobrescrever meu site --> </li>
+            </ul>
+        </p>
+        <p> <ul type="square">
+                <li>    <a href="https://www.youtube.com/watch?v=LeOVXQDsAIY&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=27" target="_blank" rel="external">
+        E o Link para abrir em guias separadas</a> <!-- Link para abrir em guias separas, sem sobrescrever --> </li>
+            </ul>
+        </p>
+    <h2>Minhas outras guias</h2>
+        <p> <ul type="cirle">
+                <li>  <a href="pag002.html" target="_self" rel="next">Link da Nova Guia Interna - 1</a> </li>
+            </ul>
+        </p> <!-- Forma de navegar para primeira guia sem sair do site -->
+        <p> <ul type="circle">
+                <li>  <a href="Situações/pag003.html" target="_self" rel="next">Link da Nova Guia Interna - 2</a> </li>
+            </ul>
+        </p> <!-- Forma de navegar para segunda guia sem sair do site -->
+    <h2>Links PDF para donwload</h2>
+    <p> <ul type="square">
+            <li>
+                <a href="PDFs/apostila-html-css-javascript.pdf" download="apostila-html-css-javascript.pdf" type="application/pdf">Donwload do PDF</a>
+            </li>
+            <li>
+                <a href="PDFs/Aquivo PDF.rar" download="Aquivo PDF.rar" type="application/rar">Donwload do PFD.rar</a>
+            </li>  
+        </ul>
+    </p>
+</body>
+</html>
